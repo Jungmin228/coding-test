@@ -1,6 +1,6 @@
 package com.github.Jungmin228.programmers;
 
-public class Average {
+public class 평균구하기 {
     class Solution {
         public double solution(int[] arr) {
             double answer = 0;

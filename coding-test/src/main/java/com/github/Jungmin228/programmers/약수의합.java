@@ -1,6 +1,6 @@
 package com.github.Jungmin228.programmers;
 
-public class SumOfDivisor {
+public class 약수의합 {
     class Solution {
         public int solution(int n) {
             int answer = 0;
