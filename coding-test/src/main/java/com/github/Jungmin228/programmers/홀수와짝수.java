@@ -1,6 +1,6 @@
 package com.github.Jungmin228.programmers;
 
-public class EvenOdd {
+public class 홀수와짝수 {
     class Solution {
         public String solution(int num) {
             String answer = "";
