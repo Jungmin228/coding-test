@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class 정수내림차순으배치하기 {
+public class 정수내림차순으로배치하기 {
     class Solution {
         public long solution(long n) {
             String s = String.valueOf(n);
