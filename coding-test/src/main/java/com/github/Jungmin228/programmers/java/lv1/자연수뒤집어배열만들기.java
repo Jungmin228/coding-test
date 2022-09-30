@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers.java;
+package com.github.Jungmin228.programmers.java.lv1;
 
 public class 자연수뒤집어배열만들기 {
     class Solution {

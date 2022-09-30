@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers.java;
+package com.github.Jungmin228.programmers.java.lv1;
 
 public class 정수제곱근판별 {
     class Solution {

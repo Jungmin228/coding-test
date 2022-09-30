@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers.java;
+package com.github.Jungmin228.programmers.java.lv1;
 
 public class 문자열을정수로바꾸기 {
     class Solution {

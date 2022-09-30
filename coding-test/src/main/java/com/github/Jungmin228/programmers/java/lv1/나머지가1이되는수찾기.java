@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers.java;
+package com.github.Jungmin228.programmers.java.lv1;
 
 public class 나머지가1이되는수찾기 {
     class Solution {
