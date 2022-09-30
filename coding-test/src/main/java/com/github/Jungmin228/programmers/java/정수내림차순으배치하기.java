@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java;
 
 import java.util.ArrayList;
 import java.util.Comparator;

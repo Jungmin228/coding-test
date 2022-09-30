@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java;
 
 public class 콜라츠추측 {
     class Solution {

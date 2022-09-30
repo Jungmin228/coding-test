@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java;
 
 public class 문자열내p와y의개수 {
     class Solution {

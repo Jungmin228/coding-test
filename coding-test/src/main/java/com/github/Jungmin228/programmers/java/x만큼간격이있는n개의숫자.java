@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java;
 
 public class x만큼간격이있는n개의숫자 {
     class Solution {

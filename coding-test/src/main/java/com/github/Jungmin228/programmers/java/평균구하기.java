@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java;
 
 public class 평균구하기 {
     class Solution {
