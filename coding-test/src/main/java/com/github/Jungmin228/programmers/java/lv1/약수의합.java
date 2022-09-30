@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java.lv1;
 
 public class 약수의합 {
     class Solution {

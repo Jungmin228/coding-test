@@ -1,4 +1,4 @@
-package com.github.Jungmin228.programmers;
+package com.github.Jungmin228.programmers.java.lv1;
 
 public class 자릿수더하기 {
 
