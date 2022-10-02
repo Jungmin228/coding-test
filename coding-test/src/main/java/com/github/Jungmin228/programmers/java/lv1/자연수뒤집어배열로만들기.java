@@ -1,6 +1,6 @@
 package com.github.Jungmin228.programmers.java.lv1;
 
-public class 자연수뒤집어배열만들기 {
+public class 자연수뒤집어배열로만들기 {
     class Solution {
         public int[] solution(long n) {
             String number = String.valueOf(n);
