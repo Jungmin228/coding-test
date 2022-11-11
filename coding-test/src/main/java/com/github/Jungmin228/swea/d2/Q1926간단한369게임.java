@@ -1,18 +1,15 @@
-package com.github.Jungmin228.swea.d1;
+package com.github.Jungmin228.swea.d2;
 
 import java.util.Scanner;
 
 public class Q1926간단한369게임 {
-    class Solution
-    {
-        public /*static*/ void main(String args[]) throws Exception
-        {
+    class Solution {
+        public /*static*/ void main(String args[]) throws Exception {
             Scanner sc = new Scanner(System.in);
             int T;
-            T=sc.nextInt();
+            T = sc.nextInt();
 
-            for(int test_case = 1; test_case <= T; test_case++)
-            {
+            for (int test_case = 1; test_case <= T; test_case++) {
                 String n = String.valueOf(test_case);
                 StringBuilder result = new StringBuilder();
 
