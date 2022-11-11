@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T1, T2;
-        T1 = sc.nextInt();
-        T2 = sc.nextInt();
+        int T;
+        T = sc.nextInt();
+        int sum = 0;
 
-        System.out.println(T1 + T2);
-        System.out.println(T1 - T2);
-        System.out.println(T1 * T2);
-        System.out.println(T1 / T2);
+        for (int i = 1; i <= T; i++) {
+            sum += i;
+        }
+
+        System.out.println(sum);
     }
 }
