@@ -5,11 +5,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T;
-        T = sc.nextInt();
+        int T1, T2;
+        T1 = sc.nextInt();
+        T2 = sc.nextInt();
 
-        for (int test_case = 0; test_case <= T; test_case++) {
-            System.out.print((int) Math.pow(2, test_case) + " ");
+        switch (T1 - T2) {
+            case 1: case -2:
+                System.out.println("A");
+                break;
+            case -1: case 2:
+                System.out.println("B");
+                break;
         }
     }
 }
