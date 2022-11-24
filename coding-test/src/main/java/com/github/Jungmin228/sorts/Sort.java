@@ -43,4 +43,37 @@ public class Sort {
         utils.afterSort(this.array);
     }
 
+    //memo 삽입 정렬
+    public void insertionSort() {
+        utils.beforeSort(this.array);
+
+//        for (int i = 1; i < array.length; i++) {
+//            int now = array[i];
+//            int insertPos = i;
+//
+//            for (int j = i - 1; j >= 0; j--) {
+//                if (array[j] < now) {
+//                    break;
+//                }
+//                array[j+1] = array[j];
+//                insertPos--;
+//            }
+//            array[insertPos] = now;
+//        }
+
+        for (int i = 1; i < array.length; i++) {
+            int now = array[i];
+            int insertPos = i - 1;
+
+            while (insertPos >= 0 && array[insertPos] > now) {
+                array[insertPos+1] = array[insertPos];
+                insertPos--;
+            }
+            array[insertPos+1] = now;
+
+        }
+
+        utils.afterSort(this.array);
+    }
+
 }
