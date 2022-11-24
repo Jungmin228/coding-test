@@ -22,4 +22,25 @@ public class Sort {
         utils.afterSort(this.array);
     }
 
+    //memo 선택 정렬
+    public void selectionSort() {
+        utils.beforeSort(this.array);
+
+        for (int i = 0; i < array.length; i++) {
+            int minIdx = i;
+
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] < array[minIdx]) {
+                    minIdx = j;
+                }
+            }
+
+            int temp = array[minIdx];
+            array[minIdx] = array[i];
+            array[i] = temp;
+        }
+
+        utils.afterSort(this.array);
+    }
+
 }
